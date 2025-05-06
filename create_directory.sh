@@ -7,7 +7,7 @@ directory="test_directory"
 if [ -d "$directory" ]; then
     echo "Le répertoire '$directory' existe déjà."
 else
-    mkdir "$directory"
-    echo "Le répertoire '$directory' a été créé."
+    mkdir 'test_directory.'
+    echo "Le répertoire 'test_directory' a été créé."
 fi
 
